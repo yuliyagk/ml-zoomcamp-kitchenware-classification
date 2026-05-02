@@ -17,6 +17,35 @@ From the competition I needed to classify images of different kitchenware items 
 
 The files I downloaded to the following location
 
+## The solution includes:
+
+Data preprocessing
+Model training using TensorFlow/Keras
+API deployment with Flask for real-time predictions
+
+## Tech Stack
+Python
+TensorFlow / Keras
+NumPy & Pandas
+Flask (for model serving)
+Jupyter Notebook
+
+Workflow
+Images → Preprocessing → Model Training → Evaluation → Flask API → Predictions
+📂 Project Structure
+.
+├── notebook.ipynb          # model training and experimentation
+├── train.py                # training script (if exists)
+├── predict_service.py      # Flask API for predictions
+├── test_service.py         # script to test API
+├── models/                 # saved model files
+├── data/                   # dataset (if included)
+
+Model
+Deep learning model built with Keras
+Trained on labeled kitchenware images
+Optimized for multi-class classification
+
 ## Files
 
 * data/train.csv - the training set (Image IDs and classes)
@@ -40,6 +69,21 @@ I have created the predict_service.py which is taking a image url and
 predicts which kind of kitchenware it is.
 
 The script test_service.py is using a local file to test if the prediction is correct.
+
+## Learning Outcomes
+
+Through this project I learned:
+
+How to build image classification models
+Working with TensorFlow/Keras
+Data preprocessing for images
+Serving ML models with Flask
+Structuring end-to-end ML projects
+
+## Acknowledgments
+
+This project is based on the Machine Learning Zoomcamp by DataTalksClub:
+https://github.com/DataTalksClub/machine-learning-zoomcamp
 
 
 
