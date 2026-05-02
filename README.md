@@ -30,9 +30,10 @@ NumPy & Pandas
 Flask (for model serving)
 Jupyter Notebook
 
-Workflow
+## Workflow
 Images → Preprocessing → Model Training → Evaluation → Flask API → Predictions
-📂 Project Structure
+
+## Project Structure
 .
 ├── notebook.ipynb          # model training and experimentation
 ├── train.py                # training script (if exists)
@@ -41,7 +42,7 @@ Images → Preprocessing → Model Training → Evaluation → Flask API → Pre
 ├── models/                 # saved model files
 ├── data/                   # dataset (if included)
 
-Model
+## Model
 Deep learning model built with Keras
 Trained on labeled kitchenware images
 Optimized for multi-class classification
