@@ -34,7 +34,7 @@ Jupyter Notebook
 Images → Preprocessing → Model Training → Evaluation → Flask API → Predictions
 
 ## Project Structure
-.
+
 ├── notebook.ipynb          # model training and experimentation
 ├── train.py                # training script (if exists)
 ├── predict_service.py      # Flask API for predictions
