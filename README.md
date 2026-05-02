@@ -33,15 +33,6 @@ Jupyter Notebook
 ## Workflow
 Images → Preprocessing → Model Training → Evaluation → Flask API → Predictions
 
-## Project Structure
-
-├── notebook.ipynb          # model training and experimentation
-├── train.py                # training script (if exists)
-├── predict_service.py      # Flask API for predictions
-├── test_service.py         # script to test API
-├── models/                 # saved model files
-├── data/                   # dataset (if included)
-
 ## Model
 Deep learning model built with Keras
 Trained on labeled kitchenware images
